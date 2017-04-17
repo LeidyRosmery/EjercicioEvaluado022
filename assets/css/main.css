@@ -6,11 +6,11 @@
 }
 
 body {
-    background-color: #3f2914;
+    background-color: #1d1a05;
 }
 
 ul {
-    background-color: #B62D2D;
+    background-color: #ca3c25;
     padding-left: 250px;
 }
 
@@ -18,7 +18,9 @@ li {
     display: inline-block;
     padding: 15px;
 }
-
+li a {
+  text-decoration: none;
+}
 img {
     width: 150px;
     height: 150px;
@@ -40,10 +42,23 @@ img {
     width: 30px;
 }
 
+.close:hover{
+  cursor: pointer;
+}
+.galeryImg{
+margin: 50px 100px;;
+  width: auto;
+}
 figure {
     display: inline-block;
     position: relative;
     margin: 10px;
     width: 150px;
     height: 150px;
+
+}
+
+#contenido div{
+  display: inline-block;
+  width: 350px;
 }
