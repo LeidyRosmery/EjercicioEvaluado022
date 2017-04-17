@@ -2,11 +2,13 @@
     padding: 0;
     box-sizing: border-box;
     margin: 0;
-    color: #f3eba5;
+    color: #fff;
 }
 
 body {
     background-color: #1d1a05;
+    text-align : justify;
+
 }
 
 ul {
@@ -36,7 +38,6 @@ img {
     top: 15px;
     font-size: 20px;
     font-weight: 700;
-    color: #fff;
     text-align: center;
     left: 15px;
     width: 30px;
@@ -61,4 +62,5 @@ figure {
 #contenido div{
   display: inline-block;
   width: 350px;
+  margin: 20px 35px;
 }
