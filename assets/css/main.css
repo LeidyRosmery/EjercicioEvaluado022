@@ -20,7 +20,7 @@ li {
     display: inline-block;
     padding: 15px;
 }
-li a {
+#menuSeleccion a {
   text-decoration: none;
 }
 img {
@@ -47,8 +47,8 @@ img {
   cursor: pointer;
 }
 .galeryImg{
-margin: 50px 100px;;
-  width: auto;
+      margin: 20px 250px 45px;
+      width: auto;
 }
 figure {
     display: inline-block;
@@ -58,9 +58,32 @@ figure {
     height: 150px;
 
 }
+section#contenido {
+    padding-left: 85px;
+}
+section#menuSeleccion {
+    width: 1105px;
+    padding-left: 95px;
+}
+
+#menuSeleccion li{
+  margin: 0 1px;
+  background-color: #ca3c25;
+  width: 332px;
+  height: 0px;
+  padding-bottom: 20px;
+  padding-top: 3px;
+  text-align: center;
+
+}
+
+#menuSeleccion ul{
+  background-color:  #1d1a05;
+  padding: 0px;
+}
 
 #contenido div{
   display: inline-block;
-  width: 350px;
+  width: 450px;
   margin: 20px 35px;
 }
