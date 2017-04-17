@@ -1,6 +1,6 @@
 var cerrar = document.getElementsByClassName("close");
 var contenedor = document.getElementsByClassName("content-img");
-var myInfo= document.getElementsByTagName("div");
+var myInfo = document.getElementsByTagName("div");
 console.log(myInfo);
 
 
@@ -18,20 +18,20 @@ cerrar[3].addEventListener("click", function() {
     contenedor[3].style.display = "none";
 });
 
-var menu=document.getElementsByClassName("menu");
-var mySeccion=document.getElementsByClassName("galeryImg");
+var menu = document.getElementsByClassName("menu");
+var mySeccion = document.getElementsByClassName("galeryImg");
 
-menu[0].addEventListener("click",function(e){
-  e.preventDefault() ;
-  myInfo[1].style.display="none";
+menu[0].addEventListener("click", function(e) {
+    e.preventDefault();
+    myInfo[1].style.display = "none";
 });
-menu[1].addEventListener("click",function(e){
-  e.preventDefault();
-  myInfo[0].style.display="none";
+menu[1].addEventListener("click", function(e) {
+    e.preventDefault();
+    myInfo[0].style.display = "none";
 });
 
-menu[2].addEventListener("click",function(){
-  console.log("ingresa");
-mySeccion[0].style.display="block";
+menu[2].addEventListener("click", function() {
+    console.log("ingresa");
+    mySeccion[0].style.display = "block";
 
 });
