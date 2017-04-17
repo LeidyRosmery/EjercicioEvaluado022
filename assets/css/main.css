@@ -1,0 +1,30 @@
+*{
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  color: #f3eba5;
+  }
+
+  body{
+    background-color: 	#3f2914;
+  }
+ul{
+  background-color: #B62D2D;
+  padding-left: 250px;
+
+
+}
+li{
+  display: inline-block;
+  padding: 15px;
+}
+img{
+  width: 150px;
+  height: 150px;
+  margin: 5px;
+  border: solid 5px #808080;
+
+}
+figure{
+    display: inline-block;
+}
