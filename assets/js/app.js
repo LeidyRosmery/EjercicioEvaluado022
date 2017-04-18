@@ -3,7 +3,7 @@ var contenedor = document.getElementsByClassName("content-img");
 var myInfo = document.getElementsByTagName("div");
 var menu = document.getElementsByClassName("menu");
 var mySeccion = document.getElementsByClassName("galeryImg");
-//**********************************FUNCION CLOSE IMAGEN *******************
+
 function closer(primero, segundo, valor) {
     primero.addEventListener("click", function() {
         segundo.style.display = valor;
@@ -14,7 +14,7 @@ closer(cerrar[1], contenedor[1], "none");
 closer(cerrar[2], contenedor[2], "none");
 closer(cerrar[3], contenedor[3], "none");
 closer(menu[2], mySeccion[0], "block");
-// *********************FUNCION DE BOTONES DEL SEGUNDO MENU
+
 
 function myToggle(parm1, parm2) {
     parm1.addEventListener("click", function(e) {
