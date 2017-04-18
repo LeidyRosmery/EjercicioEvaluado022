@@ -24,5 +24,3 @@ function myToggle(parm1, parm2) {
 }
 myToggle(menu[0], "derecha");
 myToggle(menu[1], "izquierda");
-
-//*********************FUNCION DE MOSTRAR Y OCULTAR ********************
