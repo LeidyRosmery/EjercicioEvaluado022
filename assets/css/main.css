@@ -11,8 +11,9 @@ body {
 }
 
 ul {
+
     background-color: #ca3c25;
-    padding-left: 250px;
+padding-left: 170px;
 }
 
 li {
@@ -25,9 +26,12 @@ li {
     padding: 0 100px;
 }
 
+
+/*asi estaba */
+
 img {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     margin: 5px;
     border: solid 5px #808080;
     position: absolute;
@@ -35,7 +39,9 @@ img {
     left: 0;
 }
 
-li:hover {}
+li:hover {
+    border: solid #fff 1px;
+}
 
 .close {
     position: absolute;
@@ -52,7 +58,7 @@ li:hover {}
 }
 
 .galeryImg {
-    margin: 20px 250px 45px;
+    margin: 20px 190px 45px;
     width: auto;
 }
 
@@ -60,17 +66,19 @@ figure {
     display: inline-block;
     position: relative;
     margin: 10px;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
 }
 
 section#contenido {
-    padding-left: 85px;
+  padding-left: 170px;
+    margin-top: 80px;
 }
 
 section#menuSeleccion {
-    width: 1105px;
-    padding-left: 95px;
+    width: 1205px;
+    padding-left: 183px;
+    position: fixed;
 }
 
 #menuSeleccion li {
@@ -92,4 +100,8 @@ section#menuSeleccion {
     display: inline-block;
     width: 450px;
     margin: 20px 35px;
+}
+
+.ocultar {
+    display: none;
 }
